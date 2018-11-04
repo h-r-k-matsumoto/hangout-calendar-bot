@@ -1,0 +1,24 @@
+{
+  "timeZone": "Asia/Tokyo",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "Calendar",
+        "serviceId": "calendar",
+        "version": "v3"
+      }
+    ],
+    "libraries": [
+      {
+        "userSymbol": "GSApp",
+        "libraryId": "1wkfv_Mm0IyruEZyPZsrctcSmc1T9y0-bArl2gIzMd6RVYJAwWeJ5gpDu",
+        "version": "8"
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "executionApi": {
+    "access": "DOMAIN"
+  },
+  "chat": {}
+}

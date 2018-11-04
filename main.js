@@ -129,7 +129,7 @@ function createResponseWidgetsForNow(user, events) {
  * @returns sections情報
  */
 function createResponseWidgets(user, events) {
-  var content = "予定無し";
+  var content = "";
   var result = {
     sections: [{
       widgets: []
@@ -149,6 +149,8 @@ function createResponseWidgets(user, events) {
 
       content += item + "<br>";
     }
+  }else{
+    cntent = "予定無し";
   }
   var widget = {
     textParagraph: {
